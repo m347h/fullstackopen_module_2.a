@@ -36,11 +36,11 @@ METHOD 1:
 
 ``
 METHOD 2: using reduce 
-``
+ 
 var totalAmt = orders.reduce(function(sum, order){
 return sum + order.amount 
 }, 0)
-``
+ 
 OR 
 ``
 var totalAmt = orders.reduce((sum, order) => sum + order.amount, 0)
