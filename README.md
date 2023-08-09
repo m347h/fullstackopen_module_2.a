@@ -18,6 +18,8 @@ using programming operators of the JavaScript array: find, filter, and map
    Reduce = special = super list transformation tool 
 
 METHOD 1: 
+
+``
    car orders = {
    { amount: 250},
    { amount: 450},
@@ -32,16 +34,16 @@ METHOD 1:
 
    console.log(totalAmt)
 
-   
+   ``
 METHOD 2: using reduce 
-
+``
 var totalAmt = orders.reduce(function(sum, order){
 return sum + order.amount 
 }, 0)
-
+``
 OR 
-
+``
 var totalAmt = orders.reduce((sum, order) => sum + order.amount, 0)
 
-
+``
    
