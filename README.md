@@ -34,7 +34,7 @@ METHOD 1:
 
    console.log(totalAmt)
 
-   ``
+``
 METHOD 2: using reduce 
 ``
 var totalAmt = orders.reduce(function(sum, order){
