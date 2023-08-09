@@ -46,8 +46,8 @@ return sum + order.amount
 ```
  
 OR 
-``
+```
 var totalAmt = orders.reduce((sum, order) => sum + order.amount, 0)
 
-``
+```
    
