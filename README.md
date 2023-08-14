@@ -1,4 +1,4 @@
-# fullstackopen_module_2.a
+# fullstackopen_module_2.a.
 
 first of all. you can console.log in 2 ways. 
 
